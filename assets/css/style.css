@@ -1,0 +1,38 @@
+h1 {
+    font-size: 48px;
+    font-family: Arial; 
+    font-weight: bold;
+    text-align: center;
+    padding: 9px 9px;
+    color: white;
+    background-color: rgb(99, 96, 96);
+}
+
+p {
+    padding-left: 50px;
+    padding-right: 20px;
+    
+}
+
+ul {
+    color: rgb(150, 143, 143);
+    line-height: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+main ul li:first-of-type {
+    text-decoration-line: overline;
+}
+
+main ul li:nth-last-of-type(2) {
+    text-decoration-line: line-through;
+    text-align: center;
+
+}
+
+main ul li:last-of-type {
+    text-decoration-line: underline;
+    text-align: end;
+
+}
